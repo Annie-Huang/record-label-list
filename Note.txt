@@ -1,2 +1,5 @@
 
 create-react-app record-label-list --typescript
+
+
+Remember to remove "noImplicitAny": false in tsconfig.json
