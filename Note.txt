@@ -1,5 +1,9 @@
 
 create-react-app record-label-list --typescript
+C:\tmp\record-label-list>npm install axios --save
+
+
+
 
 
 Remember to remove "noImplicitAny": false in tsconfig.json
