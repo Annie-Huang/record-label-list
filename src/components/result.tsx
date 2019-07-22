@@ -27,35 +27,23 @@ const Result = ({records}) => {
     // ];
 
     console.log('records=', records);
-    const indent = '&nbsp;&nbsp;&nbsp;&nbsp;';
+    // const indent = '    ';
 
     const bandList = (bands) => {
-        console.log('herehere');
         return bands ? bands.map(band =><div>&nbsp;&nbsp;&nbsp;&nbsp;{band.name}: festivalList(band.festivals)</div>) : ''
     };
     const festivalList = (festivals) => {
-        console.log('did you call me?');
         return festivals ? festivals.map(feastival => <div key={feastival}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{feastival}</div>) : '';
     };
-/*
 
-{record.bands && record.bands.map(band =>
-
-                    <div>&nbsp;&nbsp;&nbsp;&nbsp;{band.name}: {festivalList(band.festivals)}</div>
-
- */
     return (
         <>
             { records && records.map(record =>
                 <div key={record.name}>
                     {record.name}:
-                    {bandList(records.bands)}
-
-                    {/*{record.bands && record.bands.map(band =>*/}
-
-                    {/*<div key={band.name}>&nbsp;&nbsp;&nbsp;&nbsp;{band.name}: {festivalList(band.festivals)}</div>*/}
-
-                    {/*)}*/}
+                    {record.bands && record.bands.map(band =>
+                        <div key={band.name}>&nbsp;&nbsp;&nbsp;&nbsp;{band.name}: {festivalList(band.festivals)}</div>
+                    )}
                 </div>
             )}
         </>
