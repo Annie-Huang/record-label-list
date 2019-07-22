@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Result from "./components/result";
+import useAxiosFetch from "./useAxiosFetch";
+
 
 const App: React.FC = () => {
     const records = [
@@ -28,8 +30,22 @@ const App: React.FC = () => {
         }
     ];
 
+    const {
+        data,
+        isLoading,
+        hasErrored,
+        errorMessage,
+    } = useAxiosFetch("/api/v1/festivals", []);
+
+    const handleFetchData = () => {
+        console.log('get to handleFetchData');
+    };
+
+    if (isLoading) return <div>Loading...</div>;
+
     return (
         <div className="App">
+            <button onClick={handleFetchData}>Fetch data</button>
             <Result records={records}></Result>
         </div>
     );
