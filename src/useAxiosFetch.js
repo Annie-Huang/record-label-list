@@ -43,6 +43,7 @@ const useAxiosFetch = (initialUrl, initialData) => {
 
       try {
         let result = await axios.get(url);
+        console.log('result=', result);
         if (!didCancel) {
           dispatch({ type: "FETCH_SUCCESS", payload: result.data });
         }

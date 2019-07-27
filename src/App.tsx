@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Result from "./components/result";
 import useAxiosFetch from "./useAxiosFetch";
+import {InputFestival} from "./model/input-festival";
 
 
 const App: React.FC = () => {
@@ -38,6 +39,8 @@ const App: React.FC = () => {
     } = useAxiosFetch("/api/v1/festivals", []);
 
     const handleFetchData = () => {
+        const festivals = data as InputFestival[];
+        console.log('festivals=', festivals);
         console.log('get to handleFetchData');
     };
 
