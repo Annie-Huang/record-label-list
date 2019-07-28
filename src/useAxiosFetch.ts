@@ -1,7 +1,9 @@
-import React, {useState, useEffect, useReducer} from "react";
+import {useState, useEffect, useReducer} from "react";
 import axios from "axios";
+import {State} from "./model/state";
+import {Action} from "./model/action";
 
-const dataFetchReducer = (state, action) => {
+const dataFetchReducer = (state: State, action: Action) => {
     switch (action.type) {
         case "FETCH_INIT":
             return {...state, isLoading: true, isError: false};
@@ -12,7 +14,6 @@ const dataFetchReducer = (state, action) => {
                 hasErrored: false,
                 errorMessage: "",
                 data: action.payload
-                // data: myData
             };
         case "FETCH_FAILURE":
             return {
@@ -26,7 +27,7 @@ const dataFetchReducer = (state, action) => {
     }
 };
 
-const useAxiosFetch = (initialUrl, initialData) => {
+const useAxiosFetch = (initialUrl: string, initialData: any) => {
     const [url] = useState(initialUrl);
 
     const [state, dispatch] = useReducer(dataFetchReducer, {
