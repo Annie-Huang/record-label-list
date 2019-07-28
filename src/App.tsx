@@ -20,22 +20,18 @@ const App: React.FC = () => {
     const handleFetchData = () => {
         console.log('get to handleFetchData');
         console.log('data=', data);
-
-        if (data !== '') {
-            const festivals = data as InputFestival[];
-            setRecordLabels(RecordLabelFormatUtils.getRecordLabels(festivals));
-            console.log("recordLabels=", recordLabels);
-        }
+        setRecordLabels(RecordLabelFormatUtils.getRecordLabels(data as InputFestival[]));
+        console.log("recordLabels=", recordLabels);
     };
 
-    if (isLoading) return <div>Loading...</div>;
-    if (data === '') return <div>Server RUNNING. But records retrieved from database. Refresh this page again.</div>;
-    if (hasErrored) return <div>{errorMessage}</div>;
+    if (isLoading) return <h5>Loading...</h5>;
+    if (data === '') return <h5>Server RUNNING. But NO records retrieved from database. Refresh this page again.</h5>;
+    if (hasErrored) return <h5>{errorMessage}</h5>;
 
     return (
         <div className="App">
-            Server RUNNING. Data is Fetched, click button to show data: <br/>
-            <button onClick={handleFetchData}>Show data</button>
+            <h5>Server RUNNING. Data is Fetched, click button to show data:</h5>
+            <button className="btn btn-primary btn-sm" onClick={handleFetchData}>Show data</button>
             <Result recordLabels={recordLabels} />
         </div>
     );

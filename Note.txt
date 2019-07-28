@@ -6,5 +6,6 @@ https://dev.to/slick3gz_/create-react-app-or-custom-webpack-config-56h0
 https://github.com/timarney/react-app-rewired
 https://github.com/timarney/react-app-rewired/issues/110
 https://facebook.github.io/create-react-app/docs/proxying-api-requests-in-development
+https://github.com/typescript-cheatsheets/react-typescript-cheatsheet
 
 Remember to remove "noImplicitAny": false in tsconfig.json

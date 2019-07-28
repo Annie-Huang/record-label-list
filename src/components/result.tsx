@@ -1,6 +1,7 @@
 import React from 'react';
+import {OutputRecordLabel} from "../model/output-record-label";
 
-const Result = ({recordLabels}) => {
+const Result: React.FC<{ recordLabels: OutputRecordLabel[] }> = ({recordLabels}) => {
     console.log("recordLabels222=", recordLabels);
 
     return(
@@ -9,7 +10,8 @@ const Result = ({recordLabels}) => {
                 <div key={recordLabel.name+recordLabel.band}>
                     {recordLabel.showName ? <div>{recordLabel.name}</div> : null}
                     <div>&nbsp;&nbsp;&nbsp;&nbsp;{recordLabel.band}</div>
-                    <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{recordLabel.festivals}</div>
+                    {recordLabel.festivals.map(festival =>
+                        <div key={festival}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{festival}</div>)}
                 </div>
             )}
         </>
