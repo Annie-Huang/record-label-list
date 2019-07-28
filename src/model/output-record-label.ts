@@ -1,5 +1,6 @@
 export interface OutputRecordLabel {
     name: string;
+    showName: boolean;
     band: string;
-    festival: string[];
+    festivals: string[];
 }
