@@ -8,7 +8,13 @@ const UNKNOWN_RECORD_LABEL_NAME = 'Unknown Record Label Name';
 export class RecordLabelFormatUtils {
     public static getRecordLabels(inputFestivals: InputFestival[]): OutputRecordLabel[] {
         // With intended structure of: {name+band: {name, band, festivals, showName}} so we can loop through insertion faster. name is the record label name.
-        const tempRecordLabelObj: Object = {};
+        const tempRecordLabelObj: {
+            [key: string]: {
+                name: string,
+                band: string,
+                festivals: string[],
+                showName: boolean
+            }} = {};
 
         // Create recordLabels with each item contains: {name+band: {name, band, festivals, showName}}.
         inputFestivals.forEach(festival => {
