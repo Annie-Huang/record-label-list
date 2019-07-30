@@ -1,0 +1,122 @@
+[
+    {
+        "name": "ACR",
+        "band": "Critter Girls",
+        "festivals": [
+            "Unknown Festival Name"
+        ],
+        "showName": true
+    },
+    {
+        "name": "ACR",
+        "band": "Manish Ditch",
+        "festivals": [
+            "Trainerella"
+        ],
+        "showName": false
+    },
+    {
+        "name": "Anti Records",
+        "band": "YOUKRANE",
+        "festivals": [
+            "Trainerella"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Fourth Woman Records",
+        "band": "Jill Black",
+        "festivals": [
+            "LOL-palooza"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Fourth Woman Records",
+        "band": "The Black Dashes",
+        "festivals": [
+            "Small Night In"
+        ],
+        "showName": false
+    },
+    {
+        "name": "MEDIOCRE Music",
+        "band": "Yanke East",
+        "festivals": [
+            "Small Night In"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Marner Sis. Recording",
+        "band": "Green Mild Cold Capsicum",
+        "festivals": [
+            "Small Night In"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Marner Sis. Recording",
+        "band": "Wild Antelope",
+        "festivals": [
+            "Small Night In"
+        ],
+        "showName": false
+    },
+    {
+        "name": "Monocracy Records",
+        "band": "Adrian Venti",
+        "festivals": [
+            "Trainerella"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Outerscope",
+        "band": "Squint-281",
+        "festivals": [
+            "Small Night In"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Pacific Records",
+        "band": "Frank Jupiter",
+        "festivals": [
+            "LOL-palooza"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Pacific Records",
+        "band": "Propeller",
+        "festivals": [
+            "Unknown Festival Name"
+        ],
+        "showName": false
+    },
+    {
+        "name": "Still Bottom Records",
+        "band": "Wild Antelope",
+        "festivals": [
+            "Trainerella"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Unknown Record Label Name",
+        "band": "Winter Primates",
+        "festivals": [
+            "LOL-palooza"
+        ],
+        "showName": true
+    },
+    {
+        "name": "XS Recordings",
+        "band": "Werewolf Weekday",
+        "festivals": [
+            "LOL-palooza"
+        ],
+        "showName": true
+    }
+]

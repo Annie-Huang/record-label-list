@@ -1,0 +1,48 @@
+[
+    {
+        "name": "LOL-palooza",
+        "bands": [
+            {
+                "name": "Frank Jupiter",
+                "recordLabel": "Pacific Records"
+            },
+            {
+                "name": "Winter Primates",
+                "recordLabel": ""
+            },
+            {
+                "name": "Jill Black",
+                "recordLabel": "Fourth Woman Records"
+            },
+            {
+                "name": "Werewolf Weekday",
+                "recordLabel": "XS Recordings"
+            }
+        ]
+    },
+    {
+        "name": "Small Night In",
+        "bands": [
+            {
+                "name": "Green Mild Cold Capsicum",
+                "recordLabel": "Marner Sis. Recording"
+            },
+            {
+                "name": "Yanke East",
+                "recordLabel": "MEDIOCRE Music"
+            },
+            {
+                "name": "The Black Dashes",
+                "recordLabel": "Fourth Woman Records"
+            },
+            {
+                "name": "Squint-281",
+                "recordLabel": "Outerscope"
+            },
+            {
+                "name": "Wild Antelope",
+                "recordLabel": "Marner Sis. Recording"
+            }
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "ACR",
+        "band": "Manish Ditch",
+        "festivals": [
+            "Trainerella"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Anti Records",
+        "band": "YOUKRANE",
+        "festivals": [
+            "Trainerella"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Monocracy Records",
+        "band": "Adrian Venti",
+        "festivals": [
+            "Trainerella"
+        ],
+        "showName": true
+    },
+    {
+        "name": "Still Bottom Records",
+        "band": "Wild Antelope",
+        "festivals": [
+            "Trainerella"
+        ],
+        "showName": true
+    }
+]
