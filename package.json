@@ -16,6 +16,7 @@
     "enzyme-to-json": "^3.3.5",
     "lodash.sortby": "^4.7.0",
     "react": "^16.8.6",
+    "react-app-polyfill": "^1.0.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
     "react-test-renderer": "^16.8.6",
@@ -24,9 +25,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test-old": "react-scripts test",
+    "test": "react-scripts test",
     "lint-ts": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
-    "test": "jest",
     "testWithCoverage": "jest --coverage",
     "eject": "react-scripts eject"
   },
@@ -40,6 +40,7 @@
       "not op_mini all"
     ],
     "development": [
+      "ie 11",
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"

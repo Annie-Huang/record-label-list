@@ -1,5 +1,7 @@
 // tslint:disable-next-line
 import 'bootstrap/dist/css/bootstrap.css';
+// tslint:disable-next-line
+import 'react-app-polyfill/ie11';
 
 import React from 'react';
 import ReactDOM from 'react-dom';

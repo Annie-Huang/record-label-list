@@ -18,7 +18,7 @@ https://medium.com/@tejasupmanyu/setting-up-unit-tests-in-react-typescipt-with-j
 https://facebook.github.io/create-react-app/docs/running-tests
 https://www.carlrippon.com/creating-a-react-and-typescript-project/
 https://codeburst.io/hello-create-react-app-cra-typescript-8e04f7012939
-
+https://github.com/facebook/create-react-app/issues/7084
 
 
 
