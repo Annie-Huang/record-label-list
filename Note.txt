@@ -3,6 +3,7 @@ create-react-app record-label-list --typescript
 C:\tmp\record-label-list>npm install axios --save
 
 npm install --save enzyme enzyme-adapter-react-16 react-test-renderer
+npm install tslint tslint-react --save-dev
 
 
 https://dev.to/slick3gz_/create-react-app-or-custom-webpack-config-56h0
@@ -15,8 +16,8 @@ https://medium.com/@RupaniChirag/writing-unit-tests-in-typescript-d4719b8a0a40
 https://medium.com/@tejasupmanyu/setting-up-unit-tests-in-react-typescipt-with-jest-and-enzyme-56634e54703
 
 https://facebook.github.io/create-react-app/docs/running-tests
-
-
+https://www.carlrippon.com/creating-a-react-and-typescript-project/
+https://codeburst.io/hello-create-react-app-cra-typescript-8e04f7012939
 
 
 

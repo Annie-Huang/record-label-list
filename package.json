@@ -24,6 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test-old": "react-scripts test",
+    "lint-ts": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "test": "jest",
     "testWithCoverage": "jest --coverage",
     "eject": "react-scripts eject"
@@ -43,5 +44,9 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://eacodingtest.digital.energyaustralia.com.au"
+  "proxy": "http://eacodingtest.digital.energyaustralia.com.au",
+  "devDependencies": {
+    "tslint": "^5.18.0",
+    "tslint-react": "^4.0.0"
+  }
 }
