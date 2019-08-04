@@ -1,7 +1,8 @@
 {
     "extends": [
         "tslint:latest",
-        "tslint-react"
+        "tslint-react",
+        "tslint-config-prettier"
     ],
     "linterOptions": {
         "exclude": [
@@ -10,6 +11,9 @@
             "coverage/lcov-report/*.js"
         ]
     },
+    "rulesDirectory": [
+        "tslint-plugin-prettier"
+    ],
     "rules": {
         "interface-name" : [true, "never-prefix"],
         "jsx-no-multiline-js": false,
