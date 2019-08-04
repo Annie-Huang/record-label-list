@@ -1,4 +1,4 @@
-import {InputBand} from "./input-band";
+import {InputBand} from './input-band';
 
 export interface InputFestival {
     name: string;

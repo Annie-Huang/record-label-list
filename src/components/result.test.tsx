@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { shallow } from 'enzyme';
-import Result from "./result";
-import {OutputRecordLabel} from "../model/output-record-label";
-import toJson from "enzyme-to-json";
+import {shallow} from 'enzyme';
+import toJson from 'enzyme-to-json';
+import React from 'react';
+import {OutputRecordLabel} from '../model/output-record-label';
+import Result from './result';
 
 test('Result should render property when passing the record label list', () => {
     const outputRecordLabel: OutputRecordLabel[] = require('../../fixtures/output-record-labels-1.json');

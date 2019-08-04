@@ -1,6 +1,6 @@
-import {RecordLabelFormatUtils} from "./record-label-format-utils";
-import {InputFestival} from "../model/input-festival";
-import {OutputRecordLabel} from "../model/output-record-label";
+import {InputFestival} from '../model/input-festival';
+import {OutputRecordLabel} from '../model/output-record-label';
+import {RecordLabelFormatUtils} from './record-label-format-utils';
 
 declare var require: any;
 

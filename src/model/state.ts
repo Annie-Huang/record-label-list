@@ -1,6 +1,6 @@
 export interface State {
-    isLoading: boolean,
-    hasErrored: boolean,
-    errorMessage: string,
-    data: any
+    isLoading: boolean;
+    hasErrored: boolean;
+    errorMessage: string;
+    data: any;
 }
