@@ -30,7 +30,7 @@ const App: React.FC = () => {
 
     return (
         <div className="App">
-            <h5>Server RUNNING. Data is Fetched, click button to show data:</h5>
+            <h5>Server RUNNING. Data is Fetched, click button to show data, Or refresh the page to fetch data from backend again:</h5>
             <button className="btn btn-primary btn-sm" onClick={handleFetchData}>Show data</button>
             <Result recordLabels={recordLabels} />
         </div>
