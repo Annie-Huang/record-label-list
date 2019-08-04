@@ -2,10 +2,23 @@
 create-react-app record-label-list --typescript
 C:\tmp\record-label-list>npm install axios --save
 
+npm install --save enzyme enzyme-adapter-react-16 react-test-renderer
+
+
 https://dev.to/slick3gz_/create-react-app-or-custom-webpack-config-56h0
 https://github.com/timarney/react-app-rewired
 https://github.com/timarney/react-app-rewired/issues/110
 https://facebook.github.io/create-react-app/docs/proxying-api-requests-in-development
 https://github.com/typescript-cheatsheets/react-typescript-cheatsheet
+https://basarat.gitbooks.io/typescript/content/docs/testing/jest.html
+https://medium.com/@RupaniChirag/writing-unit-tests-in-typescript-d4719b8a0a40
+https://medium.com/@tejasupmanyu/setting-up-unit-tests-in-react-typescipt-with-jest-and-enzyme-56634e54703
 
-Remember to remove "noImplicitAny": false in tsconfig.json
+https://facebook.github.io/create-react-app/docs/running-tests
+
+
+
+
+
+
+Done: Remember to remove "noImplicitAny": false in tsconfig.json

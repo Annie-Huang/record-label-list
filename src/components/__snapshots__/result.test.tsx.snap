@@ -1,0 +1,291 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result should render property when passing the record label list 1`] = `
+<Fragment>
+  <div
+    key="ACRCritter Girls"
+  >
+    <div>
+      ACR
+    </div>
+    <div>
+          
+      Critter Girls
+    </div>
+    <div
+      key="Unknown Festival Name"
+    >
+              
+      Unknown Festival Name
+    </div>
+  </div>
+  <div
+    key="ACRManish Ditch"
+  >
+    <div>
+          
+      Manish Ditch
+    </div>
+    <div
+      key="Trainerella"
+    >
+              
+      Trainerella
+    </div>
+  </div>
+  <div
+    key="Anti RecordsYOUKRANE"
+  >
+    <div>
+      Anti Records
+    </div>
+    <div>
+          
+      YOUKRANE
+    </div>
+    <div
+      key="Trainerella"
+    >
+              
+      Trainerella
+    </div>
+  </div>
+  <div
+    key="Fourth Woman RecordsJill Black"
+  >
+    <div>
+      Fourth Woman Records
+    </div>
+    <div>
+          
+      Jill Black
+    </div>
+    <div
+      key="LOL-palooza"
+    >
+              
+      LOL-palooza
+    </div>
+  </div>
+  <div
+    key="Fourth Woman RecordsThe Black Dashes"
+  >
+    <div>
+          
+      The Black Dashes
+    </div>
+    <div
+      key="Small Night In"
+    >
+              
+      Small Night In
+    </div>
+  </div>
+  <div
+    key="MEDIOCRE MusicYanke East"
+  >
+    <div>
+      MEDIOCRE Music
+    </div>
+    <div>
+          
+      Yanke East
+    </div>
+    <div
+      key="Small Night In"
+    >
+              
+      Small Night In
+    </div>
+  </div>
+  <div
+    key="Marner Sis. RecordingAuditones"
+  >
+    <div>
+      Marner Sis. Recording
+    </div>
+    <div>
+          
+      Auditones
+    </div>
+    <div
+      key="Twisted Tour"
+    >
+              
+      Twisted Tour
+    </div>
+  </div>
+  <div
+    key="Marner Sis. RecordingGreen Mild Cold Capsicum"
+  >
+    <div>
+          
+      Green Mild Cold Capsicum
+    </div>
+    <div
+      key="Small Night In"
+    >
+              
+      Small Night In
+    </div>
+  </div>
+  <div
+    key="Marner Sis. RecordingWild Antelope"
+  >
+    <div>
+          
+      Wild Antelope
+    </div>
+    <div
+      key="Small Night In"
+    >
+              
+      Small Night In
+    </div>
+  </div>
+  <div
+    key="Monocracy RecordsAdrian Venti"
+  >
+    <div>
+      Monocracy Records
+    </div>
+    <div>
+          
+      Adrian Venti
+    </div>
+    <div
+      key="Trainerella"
+    >
+              
+      Trainerella
+    </div>
+  </div>
+  <div
+    key="OuterscopeSquint-281"
+  >
+    <div>
+      Outerscope
+    </div>
+    <div>
+          
+      Squint-281
+    </div>
+    <div
+      key="Small Night In"
+    >
+              
+      Small Night In
+    </div>
+  </div>
+  <div
+    key="OuterscopeSummon"
+  >
+    <div>
+          
+      Summon
+    </div>
+    <div
+      key="Twisted Tour"
+    >
+              
+      Twisted Tour
+    </div>
+  </div>
+  <div
+    key="Pacific RecordsFrank Jupiter"
+  >
+    <div>
+      Pacific Records
+    </div>
+    <div>
+          
+      Frank Jupiter
+    </div>
+    <div
+      key="LOL-palooza"
+    >
+              
+      LOL-palooza
+    </div>
+  </div>
+  <div
+    key="Pacific RecordsPropeller"
+  >
+    <div>
+          
+      Propeller
+    </div>
+    <div
+      key="Unknown Festival Name"
+    >
+              
+      Unknown Festival Name
+    </div>
+  </div>
+  <div
+    key="Still Bottom RecordsWild Antelope"
+  >
+    <div>
+      Still Bottom Records
+    </div>
+    <div>
+          
+      Wild Antelope
+    </div>
+    <div
+      key="Trainerella"
+    >
+              
+      Trainerella
+    </div>
+  </div>
+  <div
+    key="Unknown Record Label NameSquint-281"
+  >
+    <div>
+      Unknown Record Label Name
+    </div>
+    <div>
+          
+      Squint-281
+    </div>
+    <div
+      key="Twisted Tour"
+    >
+              
+      Twisted Tour
+    </div>
+  </div>
+  <div
+    key="Unknown Record Label NameWinter Primates"
+  >
+    <div>
+          
+      Winter Primates
+    </div>
+    <div
+      key="LOL-palooza"
+    >
+              
+      LOL-palooza
+    </div>
+  </div>
+  <div
+    key="XS RecordingsWerewolf Weekday"
+  >
+    <div>
+      XS Recordings
+    </div>
+    <div>
+          
+      Werewolf Weekday
+    </div>
+    <div
+      key="LOL-palooza"
+    >
+              
+      LOL-palooza
+    </div>
+  </div>
+</Fragment>
+`;

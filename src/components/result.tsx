@@ -2,8 +2,6 @@ import React from 'react';
 import {OutputRecordLabel} from "../model/output-record-label";
 
 const Result: React.FC<{ recordLabels: OutputRecordLabel[] }> = ({recordLabels}) => {
-    console.log("recordLabels222=", recordLabels);
-
     return(
         <>
             {recordLabels.map(recordLabel =>

@@ -4,7 +4,7 @@ import {OutputRecordLabel} from "../model/output-record-label";
 
 declare var require: any;
 
-fdescribe('RecordLabelFormatUtils', () => {
+describe('RecordLabelFormatUtils', () => {
     it('#getRecordLabels should convert input-festivals-1.json to output-record-labels-1.json', () => {
         const inputFestivals: InputFestival[] = require('../../fixtures/input-festivals-1.json');
         const expectedOutputRecordLabel: OutputRecordLabel[] = require('../../fixtures/output-record-labels-1.json');
